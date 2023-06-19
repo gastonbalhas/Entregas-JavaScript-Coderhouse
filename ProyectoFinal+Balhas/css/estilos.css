@@ -1,0 +1,181 @@
+/*Gradientes y animaciones*/
+/*mapas*/
+@font-face {
+  font-family: "Monument";
+  src: url(../Fonts/MonumentExtended-Ultrabold.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+/*Mapas*/
+/* modificaciones generales*/
+.reproductor-spotify {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-videos {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 50%;
+}
+
+.fondo-h1 {
+  background-image: linear-gradient(to right, #5f3f2d, #a86643, #fec67d);
+  margin: auto;
+  padding: auto;
+}
+
+.titulo-1 {
+  font-family: "Monument";
+  text-align: center;
+  color: rgba(245, 245, 245, 0.819);
+  padding: 30px;
+}
+
+.titulo-3 {
+  font-family: "Monument";
+  text-align: center;
+  color: rgba(245, 245, 245, 0.819);
+  padding: 30px;
+}
+
+.article-padding {
+  padding-bottom: 50px;
+}
+
+.contenido-footer {
+  font-family: "Monument";
+  text-align: center;
+  padding: 30px;
+  color: rgba(245, 245, 245, 0.819);
+}
+
+.iconos-footer {
+  width: 20px;
+  filter: invert(100%);
+}
+
+.parrafos-nosotros {
+  padding: 30px;
+  color: rgba(245, 245, 245, 0.819);
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.background-image1 {
+  background-image: url(../Recursos/Imagenes/banner-mixer01.png);
+}
+
+/*mod bootstrap*/
+.navbar {
+  padding: 2rem;
+  font-size: 16px;
+  color: rgba(245, 245, 245, 0.819);
+  font-family: "Monument";
+}
+
+.scale-contacto {
+  width: 400px;
+}
+
+.form-estilo {
+  color: whitesmoke;
+  background-image: linear-gradient(to right, #5f3f2d, #a86643, #fec67d);
+  padding: 10px;
+  margin: auto;
+  scale: 0.9;
+}
+
+/*hover en nav*/
+.scale-text:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/*animaciones*/
+.logo-tng {
+  animation-name: logo-tng;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 0.5s;
+}
+
+@keyframes logo-tng {
+  0% {
+    translate: -500px;
+  }
+  50% {
+    translate: -250px;
+  }
+  75% {
+    translate: 50px;
+  }
+  90% {
+    translate: -50px;
+  }
+  100% {
+    translate: 0px;
+  }
+}
+/*Boostrap responsive*/
+/*Mediaqueries*/
+@media screen and (min-width: 992px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+/*Gradientes y animaciones*/
+/*Import*/
+/*Extend*/
+.gradient-color-general {
+  background-image: linear-gradient(to right, #5f3f2d, #1d1a19, #000000);
+}
+
+.gradient-color-footer {
+  background-image: linear-gradient(to top, #171716, #a86643, #fec67d);
+}
+
+.card-mod {
+  font-size: 12px;
+  color: rgba(245, 245, 245, 0.819);
+  background-image: linear-gradient(to right, #171716, #a86643, #fec67d);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-mod {
+  font-size: 12px;
+  color: rgba(245, 245, 245, 0.819);
+  background-image: linear-gradient(gradient-color-footer);
+}
+
+.footer-title {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-family: "Monument";
+}
+
+.small-image {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.h1-estilo {
+  color: whitesmoke;
+  margin: 50px;
+
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#productos-container {
+  max-width: 300px; 
+  margin: 0 auto; 
+}
+

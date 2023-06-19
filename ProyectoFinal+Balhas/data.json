@@ -1,0 +1,19 @@
+[
+{
+    "nombre": "cajon",
+    "precio": 20000,
+    "imagen": "./Recursos/Imagenes/Foto Cajon.jpg"
+    
+},
+{
+    "nombre": "pandereta",
+    "precio": 12000,
+    "imagen": "./Recursos/Imagenes/Foto Pandereta.jpg"
+    
+},
+{
+    "nombre": "conga compacta",
+    "precio": 25000,
+    "imagen": "./Recursos/Imagenes/Foto Conga Compacta.jpg"
+}
+]
