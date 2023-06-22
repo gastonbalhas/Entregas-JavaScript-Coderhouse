@@ -56,7 +56,7 @@ function mostrarProductos() {
     const imagenElement = document.createElement("img");
     imagenElement.src = producto.imagen;
     imagenElement.alt = producto.nombre;
-    imagenElement.classList.add("card-img-top", "small-image"); // Agregar clase small-image
+    imagenElement.classList.add("card-img-top", "small-image"); 
 
     const cardBody = document.createElement("div");
     cardBody.classList.add("card-body");
